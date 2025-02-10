@@ -1,0 +1,68 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --black: black;
+/*    font-family: "Poppins", serif;*/
+}
+
+.login-form {
+    /*    position:relative;*/
+   
+    border: 1px solid var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    width: 40%;
+    border-radius: .5rem;
+    margin-left: 30rem;
+    margin-top: 1rem;
+    margin-bottom:2rem;
+}
+
+.login-form-heading {
+    text-align: center;
+    font-family: "Poppins", serif;
+    color:var(--red);
+    font-weight:700;
+
+}
+.login-form-btn{
+    background:var(--black);
+    width:30%;
+    border:none;
+    padding:5px;
+    color:var(--white);
+    margin-top:15px;
+}
+.login-form-links{
+    display:flex;
+    justify-content:space-between;
+
+}
+.login-form-links a{
+    text-decoration:none;
+}

@@ -1,0 +1,92 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.check-out-container {
+    font-family: "Poppins", serif;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    /*    background-color: #f8f9fa;*/
+    border-radius: 10px;
+    z-index:1;
+    /*    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);*/
+}
+
+.check-out-form {
+    width: 80%;
+    background: white;
+    padding: 20px;
+/*    border-radius: 10px;*/
+/*    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);*/
+}
+
+    .check-out-form span {
+        font-weight: 400;
+        font-size: 15px;
+        display: block;
+/*        margin-bottom: 1px;*/
+    }
+
+.check-out-Name-feilds {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+    .check-out-Name-feilds div {
+        width: 48%;
+    }
+
+.Name-feilds {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cart-payment {
+    width: 40%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    /*    border: 2px solid red;*/
+    max-height: max-content;
+    background-color: #f8f9fa;
+    /*    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);*/
+}
+
+.cart-details {
+/*    border: 2px solid red;*/
+    display: flex;
+    justify-content: space-between;
+/*    flex-direction:column;*/
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.cart-payment-mode {
+    margin-top: 20px;
+
+
+}
+
+.checkOutBtn {
+ 
+    width: 100%;
+    padding: 10px;
+
+    background:black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+    #checkOutBtn:hover {
+        background-color: #333;
+    }
